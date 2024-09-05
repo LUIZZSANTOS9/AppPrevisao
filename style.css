@@ -1,0 +1,49 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      .gothic-a1-medium {
+          font-family: "Gothic A1", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+      }
+  }
+
+  body {
+      height: 100vh;
+      width: 100vw;
+      background-color: rgba(10, 82, 28, 0.349);
+      color: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .caixa-maior{
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    outline: none;
+}
+
+.caixa-pequena {
+    display: flex;
+    align-items: center;
+}
+
+.btn-pesquisa {
+background-color: azure;
+}
+
+.Previsão {
+    text-transform: capitalize;
+}
+
+button {
+    cursor: pointer;
+}
